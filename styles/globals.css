@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-primary{
+    @apply bg-white dark:bg-slate-700
+
+}
+
+.btn-project{
+    @apply inline-flex text-white bg-orange-600 border-0 py-2 px-6 focus:outline-none hover:bg-orange-700 rounded text-lg
+    dark:text-white
+
+}
+
+.header{
+        @apply text-xl text-orange-600 mr-5 hover:text-slate-900 dark:bg-white text-orange-600 hover:text-slate-700
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    @apply text-slate-900 dark:text-white
+
+}
+
+footer{
+
+    @apply text-slate-600
+
+}
+
+a{
+    @apply text-orange-600 hover:text-slate-700 dark:text-orange-600 hover:text-slate-700
+
+}
+
+
+p{
+    @apply text-slate-500 dark:text-slate-400
+
+}
+
+.container {
+    max-width: 1100px;
+}
