@@ -12,7 +12,7 @@ export default function Projects() {
                 <meta name="description" content="창수의 홈!!"/>
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
-
+          <p>프로젝트는 준비 중입니다.</p>
           <div className="">
             <Animation_people/>
           </div>
