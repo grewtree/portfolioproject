@@ -1,8 +1,8 @@
 import Layout from "../components/layout"
 import Head from "next/head"
 import { TOKEN, DATABASE_ID } from "../config"
+import Animation_people from "../components/home/animation3"
 import Animation_circle from "../components/home/animation_circle"
-import ProjectItem from "../components/projects/project-item";
 
 export default function Projects() {
     return (
@@ -13,19 +13,9 @@ export default function Projects() {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
-          <h1>총 프로젝트 : 00개</h1>
-
-          <ProjectItem/>
-
-
-            {/* <section
-                className="flex min-h-screen flex-col items-center justify-center text-gray-600 body-font">
-                <div
-                    className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-                    <Animation_circle/>
-                </div>
-            </section> */}
-
+          <div className="">
+            <Animation_people/>
+          </div>
         </Layout>
 
     )

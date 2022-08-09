@@ -20,8 +20,7 @@ export default function Hero() {
             </div>
 
             <div className="lg:max-w-lg lg:w-full">
-                {/* <Animation_magnifying/> */}
-
+                
                 <Animation_circle/>
 
             </div>
